@@ -6,7 +6,7 @@ st.set_page_config(page_title="Fraud Detection", page_icon="💳")
 st.title("💳 Financial Fraud Detection")
 st.write("Enter transaction details to check whether a transaction is fraudulent.")
 
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "https://fraud-detection-api-77pg.onrender.com/predict"
 
 features = {}
 
